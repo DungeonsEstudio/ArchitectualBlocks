@@ -1,25 +1,27 @@
 {
-	"format_version": "1.20.10",
-	"minecraft:recipe_shapeless": {
-		"description": {
-			"identifier": "archt:broken_cinnabar_bricks"
-		},
-		"tags": ["stonecutter"],
-		"priority": 2,
-		"ingredients": [
-			{
-				"item": "minecraft:cinnabar"
-			}
-		],
-		"unlock": [
-			{
-				"item": "minecraft:cinnabar",
-				"data": 0
-			}
-		],
-		"result": {
-			"item": "archt:broken_cinnabar_bricks",
-			"count": 1
-		}
-	}
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "archt:broken_cinnabar_bricks"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "minecraft:cinnabar"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:cinnabar",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "archt:broken_cinnabar_bricks",
+      "count": 1
+    }
+  }
 }

@@ -4,7 +4,9 @@
     "description": {
       "identifier": "archt:diorite_pillar"
     },
-    "tags": [ "stonecutter" ],
+    "tags": [
+      "stonecutter"
+    ],
     "priority": 2,
     "ingredients": [
       {

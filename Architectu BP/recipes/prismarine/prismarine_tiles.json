@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "archt:prismarine_tiles"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "minecraft:prismarine"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:prismarine",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "archt:prismarine_tiles",
+      "count": 1
+    }
+  }
+}

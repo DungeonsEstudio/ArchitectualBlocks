@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "archt:dark_andesite_wall"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "minecraft:andesite"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:andesite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "archt:dark_andesite_wall",
+      "count": 1
+    }
+  }
+}

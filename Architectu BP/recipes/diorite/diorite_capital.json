@@ -4,7 +4,9 @@
     "description": {
       "identifier": "archt:diorite_capital"
     },
-    "tags": [ "stonecutter" ],
+    "tags": [
+      "stonecutter"
+    ],
     "priority": 2,
     "ingredients": [
       {

@@ -4,599 +4,906 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
-		// ANDESITE BLOCKS
-		"andesite_base_side": {
+		"archt_andesite_base_side": {
 			"textures": "textures/blocks/andesite/andesite_base_side.png"
 		},
-		"andesite_base": {
+		"archt_andesite_base": {
 			"textures": "textures/blocks/andesite/andesite_base.png"
 		},
-		"andesite_bricks": {
+		"archt_andesite_bricks": {
 			"textures": "textures/blocks/andesite/andesite_bricks.png"
 		},
-		"andesite_capital_side": {
+		"archt_andesite_capital_side": {
 			"textures": "textures/blocks/andesite/andesite_capital_side.png"
 		},
-		"andesite_capital_top": {
+		"archt_andesite_capital_top": {
 			"textures": "textures/blocks/andesite/andesite_capital_top.png"
 		},
-		"andesite_coblestone": {
-			"textures": "textures/blocks/andesite/andesite_coblestone.png"
+		"archt_andesite_cobblestone": {
+			"textures": "textures/blocks/andesite/andesite_cobblestone.png"
 		},
-		"andesite_mossy_bricks": {
-			"textures": "textures/blocks/andesite/andesite_mossy_bricks"
+		"archt_andesite_mossy_bricks": {
+			"textures": "textures/blocks/andesite/andesite_mossy_bricks.png"
 		},
-		"andesite_mossy_coblestone": {
-			"textures": "textures/blocks/andesite/andesite_mossy_coblestone.png"
+		"archt_andesite_mossy_cobblestone": {
+			"textures": "textures/blocks/andesite/andesite_mossy_cobblestone.png"
 		},
-		"andesite_pillar": {
+		"archt_andesite_pillar": {
 			"textures": "textures/blocks/andesite/andesite_pillar.png"
 		},
-		"andesite_tiles": {
+		"archt_andesite_tiles": {
 			"textures": "textures/blocks/andesite/andesite_tiles.png"
 		},
-		"broken_andesite_bricks": {
+		"archt_broken_andesite_bricks": {
 			"textures": "textures/blocks/andesite/broken_andesite_bricks.png"
 		},
-		"broken_andesite_tiles": {
+		"archt_broken_andesite_tiles": {
 			"textures": "textures/blocks/andesite/broken_andesite_tiles.png"
 		},
-		"chiseled_andesite_bricks_top": {
+		"archt_chiseled_andesite_bricks_top": {
 			"textures": "textures/blocks/andesite/chiseled_andesite_bricks_top.png"
 		},
-		"chiseled_andesite_bricks": {
+		"archt_chiseled_andesite_bricks": {
 			"textures": "textures/blocks/andesite/chiseled_andesite_bricks.png"
 		},
-		"cut_andesite_top": {
+		"archt_cut_andesite_top": {
 			"textures": "textures/blocks/andesite/cut_andesite_top.png"
 		},
-		"cut_andesite": {
+		"archt_cut_andesite": {
 			"textures": "textures/blocks/andesite/cut_andesite.png"
 		},
-		"dark_andesite": {
+		"archt_dark_andesite": {
 			"textures": "textures/blocks/andesite/dark_andesite.png"
 		},
-		"engraved_andesite_top": {
+		"archt_engraved_andesite_top": {
 			"textures": "textures/blocks/andesite/engraved_andesite_top.png"
 		},
-		"engraved_andesite": {
+		"archt_engraved_andesite": {
 			"textures": "textures/blocks/andesite/engraved_andesite.png"
 		},
-		"smooth_andesite": {
+		"archt_smooth_andesite": {
 			"textures": "textures/blocks/andesite/smooth_andesite.png"
 		},
-
-		// BASALT BLOCKS
-		"basalt_base_side": {
+		"archt_basalt_base_side": {
 			"textures": "textures/blocks/basalt/basalt_base_side.png"
 		},
-		"basalt_base_top": {
+		"archt_basalt_base_top": {
 			"textures": "textures/blocks/basalt/basalt_base_top.png"
 		},
-		"basalt_bricks": {
+		"archt_basalt_bricks": {
 			"textures": "textures/blocks/basalt/basalt_bricks.png"
 		},
-		"basalt_capital_side": {
+		"archt_basalt_capital_side": {
 			"textures": "textures/blocks/basalt/basalt_capital_side.png"
 		},
-		"basalt_coblestone": {
-			"textures": "textures/blocks/basalt/basalt_coblestone.png"
+		"archt_basalt_coblestone": {
+			"textures": "textures/blocks/basalt/basalt_cobblestone.png"
 		},
-		"basalt_mossy_bricks": {
+		"archt_basalt_mossy_bricks": {
 			"textures": "textures/blocks/basalt/basalt_mossy_bricks.png"
 		},
-		"basalt_mossy_coblestone": {
-			"textures": "textures/blocks/basalt/basalt_mossy_coblestone.png"
+		"archt_basalt_mossy_coblestone": {
+			"textures": "textures/blocks/basalt/basalt_mossy_cobblestone.png"
 		},
-		"basalt_pillar": {
+		"archt_basalt_pillar": {
 			"textures": "textures/blocks/basalt/basalt_pillar.png"
 		},
-		"basalt_tiles": {
+		"archt_basalt_tiles": {
 			"textures": "textures/blocks/basalt/basalt_tiles.png"
 		},
-		"broken_basalt_bricks": {
+		"archt_broken_basalt_bricks": {
 			"textures": "textures/blocks/basalt/broken_basalt_bricks.png"
 		},
-		"broken_basalt_tiles": {
+		"archt_broken_basalt_tiles": {
 			"textures": "textures/blocks/basalt/broken_basalt_tiles.png"
 		},
-		"chiseled_basalt_bricks_side": {
+		"archt_chiseled_basalt_bricks_side": {
 			"textures": "textures/blocks/basalt/chiseled_basalt_bricks_side.png"
 		},
-		"cut_basalt_side": {
+		"archt_cut_basalt_side": {
 			"textures": "textures/blocks/basalt/cut_basalt_side.png"
 		},
-		"cut_basalt_top": {
+		"archt_cut_basalt_top": {
 			"textures": "textures/blocks/basalt/cut_basalt_top.png"
 		},
-		"dark_basalt": {
+		"archt_dark_basalt": {
 			"textures": "textures/blocks/basalt/dark_basalt.png"
 		},
-		"engraved_basalt_side": {
+		"archt_engraved_basalt_side": {
 			"textures": "textures/blocks/basalt/engraved_basalt_side.png"
 		},
-		"engraved_basalt_top": {
+		"archt_engraved_basalt_top": {
 			"textures": "textures/blocks/basalt/engraved_basalt_top.png"
 		},
-		"polished_basalt": {
+		"archt_polished_basalt": {
 			"textures": "textures/blocks/basalt/polished_basalt.png"
 		},
-		"archt:smooth_basalt": {
+		"archt_smooth_basalt": {
 			"textures": "textures/blocks/basalt/smooth_basalt.png"
 		},
-
-		// CALCITE BLOCKS
-		"broken_calcite_bricks": {
+		"archt_broken_calcite_bricks": {
 			"textures": "textures/blocks/calcite/broken_calcite_bricks.png"
 		},
-		"broken_calcite_tiles": {
+		"archt_broken_calcite_tiles": {
 			"textures": "textures/blocks/calcite/broken_calcite_tiles.png"
 		},
-		"calcite_base_side": {
+		"archt_calcite_base_side": {
 			"textures": "textures/blocks/calcite/calcite_base_side.png"
 		},
-		"calcite_base_top": {
+		"archt_calcite_base_top": {
 			"textures": "textures/blocks/calcite/calcite_base_top.png"
 		},
-		"calcite_bricks": {
+		"archt_calcite_bricks": {
 			"textures": "textures/blocks/calcite/calcite_bricks.png"
 		},
-		"calcite_capital": {
+		"archt_calcite_capital": {
 			"textures": "textures/blocks/calcite/calcite_capital.png"
 		},
-		"calcite_coblestone": {
-			"textures": "textures/blocks/calcite/coblestone_calcite.png"
+		"archt_calcite_coblestone": {
+			"textures": "textures/blocks/calcite/calcite_cobblestone.png"
 		},
-		"calcite_mossy_bricks": {
-			"textures": "textures/blocks/calcite/mossy_calcite_bricks.png"
+		"archt_calcite_mossy_bricks": {
+			"textures": "textures/blocks/calcite/calcite_mossy_bricks.png"
 		},
-		"calcite_mossy_coblestone": {
-			"textures": "textures/blocks/calcite/mossy_coblestone_calcite.png"
+		"archt_calcite_mossy_coblestone": {
+			"textures": "textures/blocks/calcite/calcite_mossy_cobblestone.png"
 		},
-		"calcite_pillar": {
+		"archt_calcite_pillar": {
 			"textures": "textures/blocks/calcite/calcite_pillar.png"
 		},
-		"calcite_tiles": {
+		"archt_calcite_tiles": {
 			"textures": "textures/blocks/calcite/calcite_tiles.png"
 		},
-		"chiseled_calcite_bricks": {
+		"archt_chiseled_calcite_bricks": {
 			"textures": "textures/blocks/calcite/chiseled_calcite_bricks.png"
 		},
-		"cut_calcite_side": {
+		"archt_cut_calcite_side": {
 			"textures": "textures/blocks/calcite/cut_calcite_side.png"
 		},
-		"cut_calcite_top": {
+		"archt_cut_calcite_top": {
 			"textures": "textures/blocks/calcite/cut_calcite_top.png"
 		},
-		"dark_calcite": {
+		"archt_dark_calcite": {
 			"textures": "textures/blocks/calcite/dark_calcite.png"
 		},
-		"engraved_calcite_side": {
+		"archt_engraved_calcite_side": {
 			"textures": "textures/blocks/calcite/engraved_calcite_side.png"
 		},
-		"engraved_calcite_top": {
+		"archt_engraved_calcite_top": {
 			"textures": "textures/blocks/calcite/engraved_calcite_top.png"
 		},
-		"polished_calcite": {
+		"archt_polished_calcite": {
 			"textures": "textures/blocks/calcite/polished_calcite.png"
 		},
-		"smooth_calcite": {
+		"archt_smooth_calcite": {
 			"textures": "textures/blocks/calcite/smooth_calcite.png"
 		},
-
-		// CINNABAR BLOCKS
-		"broken_cinnabar_bricks": {
+		"archt_broken_cinnabar_bricks": {
 			"textures": "textures/blocks/cinnabar/broken_cinnabar_bricks.png"
 		},
-		"broken_cinnabar_tiles": {
+		"archt_broken_cinnabar_tiles": {
 			"textures": "textures/blocks/cinnabar/broken_cinnabar_tiles.png"
 		},
-		"chiseled_cinnabar_bricks": {
+		"archt_chiseled_cinnabar_bricks": {
 			"textures": "textures/blocks/cinnabar/chiseled_cinnabar_bricks.png"
 		},
-		"cinnabar_base": {
+		"archt_cinnabar_base": {
 			"textures": "textures/blocks/cinnabar/cinnabar_base.png"
 		},
-		"cinnabar_capital": {
+		"archt_cinnabar_capital": {
 			"textures": "textures/blocks/cinnabar/cinnabar_capital.png"
 		},
-		"cinnabar_cobblestone": {
+		"archt_cinnabar_cobblestone": {
 			"textures": "textures/blocks/cinnabar/cinnabar_cobblestone.png"
 		},
-		"cinnabar_pillar": {
+		"archt_cinnabar_pillar": {
 			"textures": "textures/blocks/cinnabar/cinnabar_pillar.png"
 		},
-		"cinnabar_pillar_top": {
+		"archt_cinnabar_pillar_top": {
 			"textures": "textures/blocks/cinnabar/cinnabar_pillar_top.png"
 		},
-		"cinnabar_tiles": {
+		"archt_cinnabar_tiles": {
 			"textures": "textures/blocks/cinnabar/cinnabar_tiles.png"
 		},
-		"cut_cinnabar": {
+		"archt_cut_cinnabar": {
 			"textures": "textures/blocks/cinnabar/cut_cinnabar.png"
 		},
-		"cut_cinnabar_top": {
+		"archt_cut_cinnabar_top": {
 			"textures": "textures/blocks/cinnabar/cut_cinnabar_top.png"
 		},
-		"dark_cinnabar": {
+		"archt_dark_cinnabar": {
 			"textures": "textures/blocks/cinnabar/dark_cinnabar.png"
 		},
-		"engraved_cinnabar": {
+		"archt_engraved_cinnabar": {
 			"textures": "textures/blocks/cinnabar/engraved_cinnabar.png"
 		},
-		"engraved_cinnabar_top": {
+		"archt_engraved_cinnabar_top": {
 			"textures": "textures/blocks/cinnabar/engraved_cinnabar_top.png"
 		},
-		"mossy_cinnabar_bricks": {
-			"textures": "textures/blocks/cinnabar/mossy_cinnabar_bricks.png"
+		"archt_mossy_cinnabar_bricks": {
+			"textures": "textures/blocks/cinnabar/cinnabar_mossy_bricks.png"
 		},
-		"mossy_cinnabar_cobblestone": {
-			"textures": "textures/blocks/cinnabar/mossy_cinnabar_cobblestone.png"
+		"archt_mossy_cinnabar_cobblestone": {
+			"textures": "textures/blocks/cinnabar/cinnabar_mossy_cobblestone.png"
 		},
-		"smooth_cinnabar": {
+		"archt_smooth_cinnabar": {
 			"textures": "textures/blocks/cinnabar/smooth_cinnabar.png"
 		},
-
-		// DEEPSLATE BLOCKS
-		"chiseled_deepslate_bricks": {
+		"archt_chiseled_deepslate_bricks": {
 			"textures": "textures/blocks/deepslate/chiseled_deepslate_bricks.png"
 		},
-		"cut_deepslate_side": {
+		"archt_cut_deepslate_side": {
 			"textures": "textures/blocks/deepslate/cut_deepslate_side.png"
 		},
-		"cut_deepslate_top": {
+		"archt_cut_deepslate_top": {
 			"textures": "textures/blocks/deepslate/cut_deepslate_top.png"
 		},
-		"dark_deepslate": {
+		"archt_dark_deepslate": {
 			"textures": "textures/blocks/deepslate/dark_deepslate.png"
 		},
-		"deepslate_base_side": {
+		"archt_deepslate_base_side": {
 			"textures": "textures/blocks/deepslate/deepslate_base_side.png"
 		},
-		"deepslate_base_top": {
+		"archt_deepslate_base_top": {
 			"textures": "textures/blocks/deepslate/deepslate_base_top.png"
 		},
-		"deepslate_capital": {
+		"archt_deepslate_capital": {
 			"textures": "textures/blocks/deepslate/deepslate_capital.png"
 		},
-		"deepslate_pillar": {
+		"archt_deepslate_pillar": {
 			"textures": "textures/blocks/deepslate/deepslate_pillar.png"
 		},
-		"sculk_deepslate_bricks": {
+		"archt_sculk_deepslate_bricks": {
 			"textures": "textures/blocks/deepslate/sculk_deepslate_bricks.png"
 		},
-		"sculk_deepslate_coblestone": {
-			"textures": "textures/blocks/deepslate/sculk_coblestone_deepslate.png"
+		"archt_sculk_deepslate_coblestone": {
+			"textures": "textures/blocks/deepslate/sculk_cobblestone_deepslate.png"
 		},
-		"smooth_deepslate": {
+		"archt_smooth_deepslate": {
 			"textures": "textures/blocks/deepslate/smooth_deepslate.png"
 		},
-
-		// DIORITE BLOCKS
-		"broken_diorite_bricks": {
+		"archt_broken_diorite_bricks": {
 			"textures": "textures/blocks/diorite/broken_diorite_bricks.png"
 		},
-		"broken_diorite_tiles": {
+		"archt_broken_diorite_tiles": {
 			"textures": "textures/blocks/diorite/broken_diorite_tiles.png"
 		},
-		"chiseled_diorite_bricks_side": {
+		"archt_chiseled_diorite_bricks_side": {
 			"textures": "textures/blocks/diorite/chiseled_diorite_bricks_side.png"
 		},
-		"chiseled_diorite_bricks_top": {
+		"archt_chiseled_diorite_bricks_top": {
 			"textures": "textures/blocks/diorite/chiseled_diorite_bricks_top.png"
 		},
-		"cut_diorite_top": {
+		"archt_cut_diorite_top": {
 			"textures": "textures/blocks/diorite/cut_diorite_top.png"
 		},
-		"cut_diorite": {
+		"archt_cut_diorite": {
 			"textures": "textures/blocks/diorite/cut_diorite.png"
 		},
-		"dark_diorite": {
+		"archt_dark_diorite": {
 			"textures": "textures/blocks/diorite/dark_diorite.png"
 		},
-		"diorite_base_side": {
+		"archt_diorite_base_side": {
 			"textures": "textures/blocks/diorite/diorite_base_side.png"
 		},
-		"diorite_base_top": {
+		"archt_diorite_base_top": {
 			"textures": "textures/blocks/diorite/diorite_base_top.png"
 		},
-		"diorite_bricks": {
+		"archt_diorite_bricks": {
 			"textures": "textures/blocks/diorite/diorite_bricks.png"
 		},
-		"diorite_capital_side": {
+		"archt_diorite_capital_side": {
 			"textures": "textures/blocks/diorite/diorite_capital_side.png"
 		},
-		"diorite_capital_top": {
+		"archt_diorite_capital_top": {
 			"textures": "textures/blocks/diorite/diorite_capital_top.png"
 		},
-		"diorite_coblestone": {
-			"textures": "textures/blocks/diorite/diorite_coblestone.png"
+		"archt_diorite_coblestone": {
+			"textures": "textures/blocks/diorite/diorite_cobblestone.png"
 		},
-		"diorite_mossy_bricks": {
+		"archt_diorite_mossy_bricks": {
 			"textures": "textures/blocks/diorite/diorite_mossy_bricks.png"
 		},
-		"diorite_mossy_coblestone": {
-			"textures": "textures/blocks/diorite/diorite_mossy_coblestone.png"
+		"archt_diorite_mossy_coblestone": {
+			"textures": "textures/blocks/diorite/diorite_mossy_cobblestone.png"
 		},
-		"diorite_pillar": {
+		"archt_diorite_pillar": {
 			"textures": "textures/blocks/diorite/diorite_pillar.png"
 		},
-		"diorite_tiles": {
+		"archt_diorite_tiles": {
 			"textures": "textures/blocks/diorite/diorite_tiles.png"
 		},
-		"engraved_diorite_side": {
+		"archt_engraved_diorite_side": {
 			"textures": "textures/blocks/diorite/engraved_diorite_side.png"
 		},
-		"engraved_diorite_top": {
+		"archt_engraved_diorite_top": {
 			"textures": "textures/blocks/diorite/engraved_diorite_top.png"
 		},
-		"smooth_diorite": {
+		"archt_smooth_diorite": {
 			"textures": "textures/blocks/diorite/smooth_diorite.png"
 		},
-
-		// DRIPSTONE BLOCKS
-		"broken_dripstone_bricks": {
+		"archt_broken_dripstone_bricks": {
 			"textures": "textures/blocks/dripstone/broken_dripstone_bricks.png"
 		},
-		"broken_dripstone_tiles": {
+		"archt_broken_dripstone_tiles": {
 			"textures": "textures/blocks/dripstone/broken_dripstone_tiles.png"
 		},
-		"chiseled_dripstone_bricks": {
+		"archt_chiseled_dripstone_bricks": {
 			"textures": "textures/blocks/dripstone/chiseled_dripstone_bricks.png"
 		},
-		"cut_dripstone_top": {
+		"archt_cut_dripstone_top": {
 			"textures": "textures/blocks/dripstone/cut_dripstone_top.png"
 		},
-		"cut_dripstone_side": {
+		"archt_cut_dripstone_side": {
 			"textures": "textures/blocks/dripstone/cut_dripstone.png"
 		},
-		"dark_dripstone": {
+		"archt_dark_dripstone": {
 			"textures": "textures/blocks/dripstone/dark_dripstone.png"
 		},
-		"dripstone_base_side": {
+		"archt_dripstone_base_side": {
 			"textures": "textures/blocks/dripstone/dripstone_base_side.png"
 		},
-		"dripstone_base_top": {
+		"archt_dripstone_base_top": {
 			"textures": "textures/blocks/dripstone/dripstone_base_top.png"
 		},
-		"dripstone_bricks": {
+		"archt_dripstone_bricks": {
 			"textures": "textures/blocks/dripstone/dripstone_bricks.png"
 		},
-		"dripstone_capital": {
+		"archt_dripstone_capital": {
 			"textures": "textures/blocks/dripstone/dripstone_capital.png"
 		},
-		"dripstone_coblestone": {
-			"textures": "textures/blocks/dripstone/dripstone_coblestone.png"
+		"archt_dripstone_coblestone": {
+			"textures": "textures/blocks/dripstone/dripstone_cobblestone.png"
 		},
-		"dripstone_pillar": {
+		"archt_dripstone_pillar": {
 			"textures": "textures/blocks/dripstone/dripstone_pillar.png"
 		},
-		"dripstone_tiles": {
+		"archt_dripstone_tiles": {
 			"textures": "textures/blocks/dripstone/dripstone_tiles.png"
 		},
-		"engraved_dripstone_side": {
+		"archt_engraved_dripstone_side": {
 			"textures": "textures/blocks/dripstone/engraved_dripstone_side.png"
 		},
-		"engraved_dripstone_top": {
+		"archt_engraved_dripstone_top": {
 			"textures": "textures/blocks/dripstone/engraved_dripstone_top.png"
 		},
-		"dripstone_mossy_bricks": {
-			"textures": "textures/blocks/dripstone/mossy_dripstone_bricks.png"
+		"archt_dripstone_mossy_bricks": {
+			"textures": "textures/blocks/dripstone/dripstone_mossy_bricks.png"
 		},
-		"dripstone_mossy_coblestone": {
-			"textures": "textures/blocks/dripstone/mossy_coblestone_dripstone.png"
+		"archt_dripstone_mossy_coblestone": {
+			"textures": "textures/blocks/dripstone/dripstone_mossy_cobblestone.png"
 		},
-		"polished_dripstone": {
+		"archt_polished_dripstone": {
 			"textures": "textures/blocks/dripstone/polished_dripstone.png"
 		},
-		"smooth_dripstone": {
+		"archt_smooth_dripstone": {
 			"textures": "textures/blocks/dripstone/smooth_dripstone.png"
 		},
-
-		// GRANITE BLOCKS
-		"broken_granite_bricks": {
+		"archt_broken_granite_bricks": {
 			"textures": "textures/blocks/granite/broken_granite_bricks.png"
 		},
-		"broken_granite_tiles": {
+		"archt_broken_granite_tiles": {
 			"textures": "textures/blocks/granite/broken_granite_tiles.png"
 		},
-		"chiseled_granite_bricks_side": {
+		"archt_chiseled_granite_bricks_side": {
 			"textures": "textures/blocks/granite/chiseled_granite_bricks_side.png"
 		},
-		"chiseled_granite_bricks_top": {
+		"archt_chiseled_granite_bricks_top": {
 			"textures": "textures/blocks/granite/chiseled_granite_bricks_top.png"
 		},
-		"cut_granite_top": {
+		"archt_cut_granite_top": {
 			"textures": "textures/blocks/granite/cut_granite_top.png"
 		},
-		"cut_granite": {
+		"archt_cut_granite": {
 			"textures": "textures/blocks/granite/cut_granite.png"
 		},
-		"dark_granite": {
+		"archt_dark_granite": {
 			"textures": "textures/blocks/granite/dark_granite.png"
 		},
-		"engraved_granite_side": {
+		"archt_engraved_granite_side": {
 			"textures": "textures/blocks/granite/engraved_granite_side.png"
 		},
-		"engraved_granite_top": {
+		"archt_engraved_granite_top": {
 			"textures": "textures/blocks/granite/engraved_granite_top.png"
 		},
-		"granite_base_side": {
+		"archt_granite_base_side": {
 			"textures": "textures/blocks/granite/granite_base_side.png"
 		},
-		"granite_base_top": {
+		"archt_granite_base_top": {
 			"textures": "textures/blocks/granite/granite_base_top.png"
 		},
-		"granite_bricks": {
+		"archt_granite_bricks": {
 			"textures": "textures/blocks/granite/granite_bricks.png"
 		},
-		"granite_capital_side": {
+		"archt_granite_capital_side": {
 			"textures": "textures/blocks/granite/granite_capital_side.png"
 		},
-		"granite_capital_top": {
+		"archt_granite_capital_top": {
 			"textures": "textures/blocks/granite/granite_capital_top.png"
 		},
-		"granite_coblestone": {
-			"textures": "textures/blocks/granite/granite_coblestone.png"
+		"archt_granite_coblestone": {
+			"textures": "textures/blocks/granite/granite_cobblestone.png"
 		},
-		"granite_mossy_bricks": {
+		"archt_granite_mossy_bricks": {
 			"textures": "textures/blocks/granite/granite_mossy_bricks.png"
 		},
-		"granite_mossy_coblestone": {
-			"textures": "textures/blocks/granite/granite_mossy_coblestone.png"
+		"archt_granite_mossy_coblestone": {
+			"textures": "textures/blocks/granite/granite_mossy_cobblestone.png"
 		},
-		"granite_pillar": {
+		"archt_granite_pillar": {
 			"textures": "textures/blocks/granite/granite_pillar.png"
 		},
-		"granite_tiles": {
+		"archt_granite_tiles": {
 			"textures": "textures/blocks/granite/granite_tiles.png"
 		},
-		"smooth_granite": {
+		"archt_smooth_granite": {
 			"textures": "textures/blocks/granite/smooth_granite.png"
 		},
-
-		// STONE BLOCKS
-		"broken_stone_tiles": {
+		"archt_broken_stone_tiles": {
 			"textures": "textures/blocks/stone/broken_stone_tiles.png"
 		},
-		"chiseled_stone_bricks": {
+		"archt_chiseled_stone_bricks": {
 			"textures": "textures/blocks/stone/chiseled_stone_bricks.png"
 		},
-		"cut_stone_top": {
+		"archt_cut_stone_top": {
 			"textures": "textures/blocks/stone/cut_stone_top.png"
 		},
-		"cut_stone": {
+		"archt_cut_stone": {
 			"textures": "textures/blocks/stone/cut_stone.png"
 		},
-		"dark_stone": {
+		"archt_dark_stone": {
 			"textures": "textures/blocks/stone/dark_stone.png"
 		},
-		"engraved_stone_side": {
+		"archt_engraved_stone_side": {
 			"textures": "textures/blocks/stone/engraved_stone_side.png"
 		},
-		"engraved_stone_top": {
+		"archt_engraved_stone_top": {
 			"textures": "textures/blocks/stone/engraved_stone_top.png"
 		},
-		"polished_stone": {
+		"archt_polished_stone": {
 			"textures": "textures/blocks/stone/polished_stone.png"
 		},
-		"smooth_stone": {
+		"archt_smooth_stone": {
 			"textures": "textures/blocks/stone/smooth_stone.png"
 		},
-		"stone_base_side": {
+		"archt_stone_base_side": {
 			"textures": "textures/blocks/stone/stone_base_side.png"
 		},
-		"stone_base_top": {
+		"archt_stone_base_top": {
 			"textures": "textures/blocks/stone/stone_base_top.png"
 		},
-		"stone_capital_side": {
+		"archt_stone_capital_side": {
 			"textures": "textures/blocks/stone/stone_capital_side.png"
 		},
-		"stone_capital_top": {
+		"archt_stone_capital_top": {
 			"textures": "textures/blocks/stone/stone_capital_top.png"
 		},
-		"stone_pillar": {
+		"archt_stone_pillar": {
 			"textures": "textures/blocks/stone/stone_pillar.png"
 		},
-		"stone_tiles": {
+		"archt_stone_tiles": {
 			"textures": "textures/blocks/stone/stone_tiles.png"
 		},
-
-		// SULFUR BLOCKS
-		"broken_sulfur_bricks": {
+		"archt_broken_sulfur_bricks": {
 			"textures": "textures/blocks/sulfur/broken_sulfur_bricks.png"
 		},
-		"broken_sulfur_tiles": {
+		"archt_broken_sulfur_tiles": {
 			"textures": "textures/blocks/sulfur/broken_sulfur_tiles.png"
 		},
-		"chiseled_sulfur_bricks": {
+		"archt_chiseled_sulfur_bricks": {
 			"textures": "textures/blocks/sulfur/chiseled_sulfur_bricks.png"
 		},
-		"cut_sulfur": {
+		"archt_cut_sulfur": {
 			"textures": "textures/blocks/sulfur/cut_sulfur.png"
 		},
-		"cut_sulfur_top": {
+		"archt_cut_sulfur_top": {
 			"textures": "textures/blocks/sulfur/cut_sulfur_top.png"
 		},
-		"dark_sulfur": {
+		"archt_dark_sulfur": {
 			"textures": "textures/blocks/sulfur/dark_sulfur.png"
 		},
-		"engraved_sulfur": {
+		"archt_engraved_sulfur": {
 			"textures": "textures/blocks/sulfur/engraved_sulfur.png"
 		},
-		"engraved_sulfur_top": {
+		"archt_engraved_sulfur_top": {
 			"textures": "textures/blocks/sulfur/engraved_sulfur_top.png"
 		},
-		"mossy_sulfur_bricks": {
-			"textures": "textures/blocks/sulfur/mossy_sulfur_bricks.png"
+		"archt_mossy_sulfur_bricks": {
+			"textures": "textures/blocks/sulfur/sulfur_mossy_bricks.png"
 		},
-		"mossy_sulfur_cobblestone": {
-			"textures": "textures/blocks/sulfur/mossy_sulfur_cobblestone.png"
+		"archt_mossy_sulfur_cobblestone": {
+			"textures": "textures/blocks/sulfur/sulfur_mossy_cobblestone.png"
 		},
-		"smooth_sulfur": {
+		"archt_smooth_sulfur": {
 			"textures": "textures/blocks/sulfur/smooth_sulfur.png"
 		},
-		"sulfur_base": {
+		"archt_sulfur_base": {
 			"textures": "textures/blocks/sulfur/sulfur_base.png"
 		},
-		"sulfur_capital": {
+		"archt_sulfur_capital": {
 			"textures": "textures/blocks/sulfur/sulfur_capital.png"
 		},
-		"sulfur_cobblestone": {
+		"archt_sulfur_cobblestone": {
 			"textures": "textures/blocks/sulfur/sulfur_cobblestone.png"
 		},
-		"sulfur_pillar": {
+		"archt_sulfur_pillar": {
 			"textures": "textures/blocks/sulfur/sulfur_pillar.png"
 		},
-		"sulfur_pillar_top": {
+		"archt_sulfur_pillar_top": {
 			"textures": "textures/blocks/sulfur/sulfur_pillar_top.png"
 		},
-		"sulfur_tiles": {
+		"archt_sulfur_tiles": {
 			"textures": "textures/blocks/sulfur/sulfur_tiles.png"
 		},
-
-		// TUFF BLOCKS
-		"broken_tuff_bricks": {
+		"archt_broken_tuff_bricks": {
 			"textures": "textures/blocks/tuff/broken_tuff_bricks.png"
 		},
-		"broken_tuff_tiles": {
+		"archt_broken_tuff_tiles": {
 			"textures": "textures/blocks/tuff/broken_tuff_tiles.png"
 		},
-		"cut_tuff_top": {
+		"archt_cut_tuff_top": {
 			"textures": "textures/blocks/tuff/cut_tuff_top.png"
 		},
-		"cut_tuff": {
+		"archt_cut_tuff": {
 			"textures": "textures/blocks/tuff/cut_tuff.png"
 		},
-		"dark_tuff": {
+		"archt_dark_tuff": {
 			"textures": "textures/blocks/tuff/dark_tuff.png"
 		},
-		"smooth_tuff": {
+		"archt_smooth_tuff": {
 			"textures": "textures/blocks/tuff/smooth_tuff.png"
 		},
-		"tuff_base_side": {
+		"archt_tuff_base_side": {
 			"textures": "textures/blocks/tuff/tuff_base_side.png"
 		},
-		"tuff_base_top": {
+		"archt_tuff_base_top": {
 			"textures": "textures/blocks/tuff/tuff_base_top.png"
 		},
-		"tuff_capital": {
+		"archt_tuff_capital": {
 			"textures": "textures/blocks/tuff/tuff_capital.png"
 		},
-		"tuff_coblestone": {
-			"textures": "textures/blocks/tuff/tuff_coblestone.png"
+		"archt_tuff_coblestone": {
+			"textures": "textures/blocks/tuff/tuff_cobblestone.png"
 		},
-		"tuff_mossy_bricks": {
+		"archt_tuff_mossy_bricks": {
 			"textures": "textures/blocks/tuff/tuff_mossy_bricks.png"
 		},
-		"tuff_mossy_coblestone": {
-			"textures": "textures/blocks/tuff/tuff_mossy_coblestone.png"
+		"archt_tuff_mossy_coblestone": {
+			"textures": "textures/blocks/tuff/tuff_mossy_cobblestone.png"
 		},
-		"tuff_pillar": {
+		"archt_tuff_pillar": {
 			"textures": "textures/blocks/tuff/tuff_pillar.png"
 		},
-		"tuff_tiles": {
+		"archt_tuff_tiles": {
 			"textures": "textures/blocks/tuff/tuff_tiles.png"
+		},
+		/* Mud Textures */
+		"archt_mud_mossy_bricks": {
+			"textures": "textures/blocks/mud/mud_mossy_bricks.png"
+		},
+		"archt_cut_mud": {
+			"textures": "textures/blocks/mud/cut_mud.png"
+		},
+		"archt_mud_cobblestone": {
+			"textures": "textures/blocks/mud/mud_cobblestone.png"
+		},
+		"archt_dark_mud": {
+			"textures": "textures/blocks/mud/dark_mud.png"
+		},
+		"archt_mud_pillar_top": {
+			"textures": "textures/blocks/mud/mud_pillar_top.png"
+		},
+		"archt_cut_mud_top": {
+			"textures": "textures/blocks/mud/cut_mud_top.png"
+		},
+		"archt_broken_mud_tiles": {
+			"textures": "textures/blocks/mud/broken_mud_tiles.png"
+		},
+		"archt_chiseled_mud_bricks": {
+			"textures": "textures/blocks/mud/chiseled_mud_bricks.png"
+		},
+		"archt_mud_base": {
+			"textures": "textures/blocks/mud/mud_base.png"
+		},
+		"archt_engraved_mud_top": {
+			"textures": "textures/blocks/mud/engraved_mud_top.png"
+		},
+		"archt_mud_capital": {
+			"textures": "textures/blocks/mud/mud_capital.png"
+		},
+		"archt_mud_mossy_cobblestone": {
+			"textures": "textures/blocks/mud/mud_mossy_cobblestone.png"
+		},
+		"archt_broken_mud_bricks": {
+			"textures": "textures/blocks/mud/broken_mud_bricks.png"
+		},
+		"archt_polished_mud": {
+			"textures": "textures/blocks/mud/polished_mud.png"
+		},
+		"archt_mud_tiles": {
+			"textures": "textures/blocks/mud/mud_tiles.png"
+		},
+		"archt_smooth_mud": {
+			"textures": "textures/blocks/mud/smooth_mud.png"
+		},
+		"archt_engraved_mud": {
+			"textures": "textures/blocks/mud/engraved_mud.png"
+		},
+		"archt_mud_pillar": {
+			"textures": "textures/blocks/mud/mud_pillar.png"
+		},
+		"archt_engraved_resin": {
+			"textures": "textures/blocks/resin/engraved_resin.png"
+		},
+		"archt_dark_resin": {
+			"textures": "textures/blocks/resin/dark_resin.png"
+		},
+		"archt_broken_resin_tiles": {
+			"textures": "textures/blocks/resin/broken_resin_tiles.png"
+		},
+		"archt_cut_resin_top": {
+			"textures": "textures/blocks/resin/cut_resin_top.png"
+		},
+		"archt_resin_capital": {
+			"textures": "textures/blocks/resin/resin_capital.png"
+		},
+		"archt_chiseled_resin_bricks": {
+			"textures": "textures/blocks/resin/chiseled_resin_bricks.png"
+		},
+		"archt_pale_mossy_resin_bricks": {
+			"textures": "textures/blocks/resin/pale_mossy_resin_bricks.png"
+		},
+		"archt_resin_base": {
+			"textures": "textures/blocks/resin/resin_base.png"
+		},
+		"archt_pale_mossy_resin_block": {
+			"textures": "textures/blocks/resin/pale_mossy_resin_block.png"
+		},
+		"archt_smooth_resin": {
+			"textures": "textures/blocks/resin/smooth_resin.png"
+		},
+		"archt_resin_pillar": {
+			"textures": "textures/blocks/resin/resin_pillar.png"
+		},
+		"archt_polished_resin": {
+			"textures": "textures/blocks/resin/polished_resin.png"
+		},
+		"archt_cut_resin": {
+			"textures": "textures/blocks/resin/cut_resin.png"
+		},
+		"archt_engraved_resin_top": {
+			"textures": "textures/blocks/resin/engraved_resin_top.png"
+		},
+		"archt_resin_pillar_top": {
+			"textures": "textures/blocks/resin/resin_pillar_top.png"
+		},
+		"archt_resin_tiles": {
+			"textures": "textures/blocks/resin/resin_tiles.png"
+		},
+		"archt_broken_resin_bricks": {
+			"textures": "textures/blocks/resin/broken_resin_bricks.png"
+		},
+		"archt_red_sandstone_dry_cobblestone": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_dry_cobblestone.png"
+		},
+		"archt_red_sandstone_dry_bricks": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_dry_bricks.png"
+		},
+		"smooth_redsandstone": {
+			"textures": "textures/blocks/red_sandstone/smooth_red_sandstone.png"
+		},
+		"archt_broken_red_sandstone_tiles": {
+			"textures": "textures/blocks/red_sandstone/broken_red_sandstone_tiles.png"
+		},
+		"flattened_redsandstone_top": {
+			"textures": "textures/blocks/red_sandstone/cut_red_sandstone_top.png"
+		},
+		"archt_red_sandstone_pillar_top": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_pillar_top.png"
+		},
+		"cut_red_sandstone": {
+			"textures": "textures/blocks/red_sandstone/cut_red_sandstone.png"
+		},
+		"flattened_redsandstone": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone.png"
+		},
+		"archt_red_sandstone_pillar": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_pillar.png"
+		},
+		"archt_red_sandstone_base": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_base.png"
+		},
+		"archt_dark_red_sandstone": {
+			"textures": "textures/blocks/red_sandstone/dark_red_sandstone.png"
+		},
+		"archt_red_sandstone_cobblestone": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_cobblestone.png"
+		},
+		"archt_broken_red_sandstone_bricks": {
+			"textures": "textures/blocks/red_sandstone/broken_red_sandstone_bricks.png"
+		},
+		"archt_chiseled_red_sandstone_bricks": {
+			"textures": "textures/blocks/red_sandstone/chiseled_red_sandstone_bricks.png"
+		},
+		"archt_red_sandstone_tiles": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_tiles.png"
+		},
+		"archt_red_sandstone_capital": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_capital.png"
+		},
+		"archt_polished_red_sandstone": {
+			"textures": "textures/blocks/red_sandstone/polished_red_sandstone.png"
+		},
+		"archt_red_sandstone_bricks": {
+			"textures": "textures/blocks/red_sandstone/red_sandstone_bricks.png"
+		},
+		"archt_polished_sandstone": {
+			"textures": "textures/blocks/sandstone/polished_sandstone.png"
+		},
+		"smooth_sandstone": {
+			"textures": "textures/blocks/sandstone/smooth_sandstone.png"
+		},
+		"archt_sandstone_pillar_top": {
+			"textures": "textures/blocks/sandstone/sandstone_pillar_top.png"
+		},
+		"archt_sandstone_pillar": {
+			"textures": "textures/blocks/sandstone/sandstone_pillar.png"
+		},
+		"archt_sandstone_bricks": {
+			"textures": "textures/blocks/sandstone/sandstone_bricks.png"
+		},
+		"archt_sandstone_dry_cobblestone": {
+			"textures": "textures/blocks/sandstone/sandstone_dry_cobblestone.png"
+		},
+		"archt_broken_sandstone_bricks": {
+			"textures": "textures/blocks/sandstone/broken_sandstone_bricks.png"
+		},
+		"archt_dark_sandstone": {
+			"textures": "textures/blocks/sandstone/dark_sandstone.png"
+		},
+		"cut_sandstone": {
+			"textures": "textures/blocks/sandstone/cut_sandstone.png"
+		},
+		"archt_broken_sandstone_tiles": {
+			"textures": "textures/blocks/sandstone/broken_sandstone_tiles.png"
+		},
+		"archt_chiseled_sandstone_bricks": {
+			"textures": "textures/blocks/sandstone/chiseled_sandstone_bricks.png"
+		},
+		"flattened_sandstone": {
+			"textures": "textures/blocks/sandstone/sandstone.png"
+		},
+		"flattened_sandstone_top": {
+			"textures": "textures/blocks/sandstone/cut_sandstone_top.png"
+		},
+		"flattened_sandstone_bottom": {
+			"textures": "textures/blocks/sandstone/sandstone.png"
+		},
+		"archt_sandstone_cobblestone": {
+			"textures": "textures/blocks/sandstone/sandstone_cobblestone.png"
+		},
+		"archt_sandstone_tiles": {
+			"textures": "textures/blocks/sandstone/sandstone_tiles.png"
+		},
+		"archt_sandstone_capital": {
+			"textures": "textures/blocks/sandstone/sandstone_capital.png"
+		},
+		"archt_sandstone_base": {
+			"textures": "textures/blocks/sandstone/sandstone_base.png"
+		},
+		"archt_sandstone_dry_bricks": {
+			"textures": "textures/blocks/sandstone/sandstone_dry_bricks.png"
+		},
+		"archt_algae_cobblestone_prismarine": {
+			"textures": "textures/blocks/prismarine/algae_cobblestone_prismarine.png"
+		},
+		"archt_prismarine_pillar_top": {
+			"textures": "textures/blocks/prismarine/prismarine_pillar_top.png"
+		},
+		"archt_dark_prismarine": {
+			"textures": "textures/blocks/prismarine/dark_prismarine.png"
+		},
+		"archt_prismarine_cobblestone": {
+			"textures": "textures/blocks/prismarine/prismarine_cobblestone.png"
+		},
+		"flattened_prismarine": {
+			"textures": "textures/blocks/prismarine/prismarine.png"
+		},
+		"archt_prismarine_pillar": {
+			"textures": "textures/blocks/prismarine/prismarine_pillar.png"
+		},
+		"archt_algae_prismarine_bricks": {
+			"textures": "textures/blocks/prismarine/algae_prismarine_bricks.png"
+		},
+		"archt_prismarine_tiles": {
+			"textures": "textures/blocks/prismarine/prismarine_tiles.png"
+		},
+		"archt_prismarine_capital": {
+			"textures": "textures/blocks/prismarine/prismarine_capital.png"
+		},
+		"archt_chiseled_prismarine_bricks": {
+			"textures": "textures/blocks/prismarine/chiseled_prismarine_bricks.png"
+		},
+		"archt_engraved_prismarine": {
+			"textures": "textures/blocks/prismarine/engraved_prismarine.png"
+		},
+		"archt_cut_prismarine": {
+			"textures": "textures/blocks/prismarine/cut_prismarine.png"
+		},
+		"archt_smooth_prismarine": {
+			"textures": "textures/blocks/prismarine/smooth_prismarine.png"
+		},
+		"archt_polished_prismarine": {
+			"textures": "textures/blocks/prismarine/polished_prismarine.png"
+		},
+		"archt_cut_prismarine_top": {
+			"textures": "textures/blocks/prismarine/cut_prismarine_top.png"
+		},
+		"archt_prismarine_base": {
+			"textures": "textures/blocks/prismarine/prismarine_base.png"
+		},
+		"archt_engraved_prismarine_top": {
+			"textures": "textures/blocks/prismarine/engraved_prismarine_top.png"
+		},
+		"archt_broken_prismarine_bricks": {
+			"textures": "textures/blocks/prismarine/broken_prismarine_bricks.png"
+		},
+		"archt_broken_prismarine_tiles": {
+			"textures": "textures/blocks/prismarine/broken_prismarine_tiles.png"
+		},
+		"archt_broken_bricks": {
+			"textures": "textures/blocks/bricks/broken_bricks.png"
+		},
+		"archt_mossy_bricks": {
+			"textures": "textures/blocks/bricks/mossy_bricks.png"
+		},
+		"archt_bricks_tiles": {
+			"textures": "textures/blocks/bricks/bricks_tiles.png"
+		},
+		"archt_engraved_bricks": {
+			"textures": "textures/blocks/bricks/engraved_bricks.png"
+		},
+		"archt_cut_bricks_top": {
+			"textures": "textures/blocks/bricks/cut_bricks_top.png"
+		},
+		"archt_bricks_capital": {
+			"textures": "textures/blocks/bricks/bricks_capital.png"
+		},
+		"archt_cut_bricks": {
+			"textures": "textures/blocks/bricks/cut_bricks.png"
+		},
+		"archt_bricks_base": {
+			"textures": "textures/blocks/bricks/bricks_base.png"
+		},
+		"archt_smooth_bricks": {
+			"textures": "textures/blocks/bricks/smooth_bricks.png"
+		},
+		"archt_polished_bricks": {
+			"textures": "textures/blocks/bricks/polished_bricks.png"
+		},
+		"archt_chiseled_bricks": {
+			"textures": "textures/blocks/bricks/chiseled_bricks.png"
+		},
+		"archt_bricks_pillar_top": {
+			"textures": "textures/blocks/bricks/bricks_pillar_top.png"
+		},
+		"archt_mossy_cobblestone_bricks": {
+			"textures": "textures/blocks/bricks/bricks_mossy_cobblestone.png"
+		},
+		"archt_cobblestone_bricks": {
+			"textures": "textures/blocks/bricks/bricks_cobblestone.png"
+		},
+		"archt_broken_bricks_tiles": {
+			"textures": "textures/blocks/bricks/broken_bricks_tiles.png"
+		},
+		"archt_engraved_bricks_top": {
+			"textures": "textures/blocks/bricks/engraved_bricks_top.png"
+		},
+		"archt_dark_bricks": {
+			"textures": "textures/blocks/bricks/dark_bricks.png"
+		},
+		"archt_bricks_pillar": {
+			"textures": "textures/blocks/bricks/bricks_pillar.png"
 		}
 	}
 }

@@ -1,0 +1,560 @@
+{
+	"format_version": "1.26.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "archt:deepslate_sculk_cobblestone_wall",
+			"menu_category": {
+				"category": "construction"
+			},
+			"states": {
+				"archt:wall_post_bit": [
+					true,
+					false
+				],
+				"archt:wall_connection_type_north": [
+					"none",
+					"short",
+					"tall"
+				],
+				"archt:wall_connection_type_south": [
+					"none",
+					"short",
+					"tall"
+				],
+				"archt:wall_connection_type_west": [
+					"none",
+					"short",
+					"tall"
+				],
+				"archt:wall_connection_type_east": [
+					"none",
+					"short",
+					"tall"
+				]
+			}
+		},
+		"components": {
+			"minecraft:sound": {
+				"sound": "deepslate"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "archt_sculk_deepslate_coblestone",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:item_visual": {
+				"material_instances": {
+					"*": {
+						"texture": "archt_sculk_deepslate_coblestone",
+						"render_method": "opaque"
+					}
+				},
+				"geometry": {
+					"identifier": "geometry.archt.wall_model",
+					"bone_visibility": {
+						"item_visual": "true",
+						"post_bit": "false",
+						"short_east": "false",
+						"tall_east": "false",
+						"short_west": "false",
+						"tall_west": "false",
+						"short_ew": "false",
+						"tall_ew": "false",
+						"short_north": "false",
+						"tall_north": "false",
+						"short_south": "false",
+						"tall_south": "false",
+						"short_ns": "false",
+						"tall_ns": "false"
+					}
+				}
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.archt.wall_model",
+				"bone_visibility": {
+					"post_bit": "q.block_state('archt:wall_post_bit')",
+					"short_east": "q.block_state('archt:wall_post_bit') &&q.block_state('archt:wall_connection_type_east') == 'short'",
+					"tall_east": "q.block_state('archt:wall_post_bit') &&q.block_state('archt:wall_connection_type_east') == 'tall'",
+					"short_west": "q.block_state('archt:wall_post_bit') &&q.block_state('archt:wall_connection_type_west') == 'short'",
+					"tall_west": "q.block_state('archt:wall_post_bit') &&q.block_state('archt:wall_connection_type_west') == 'tall'",
+					"short_ew": "!q.block_state('archt:wall_post_bit') && q.block_state('archt:wall_connection_type_east') == 'short' && q.block_state('archt:wall_connection_type_west') == 'short'",
+					"tall_ew": "!q.block_state('archt:wall_post_bit') && q.block_state('archt:wall_connection_type_east') == 'tall' && q.block_state('archt:wall_connection_type_west') == 'tall'",
+					"short_north": "q.block_state('archt:wall_post_bit') &&q.block_state('archt:wall_connection_type_north') == 'short'",
+					"tall_north": "q.block_state('archt:wall_post_bit') &&q.block_state('archt:wall_connection_type_north') == 'tall'",
+					"short_south": "q.block_state('archt:wall_post_bit') &&q.block_state('archt:wall_connection_type_south') == 'short'",
+					"tall_south": "q.block_state('archt:wall_post_bit') &&q.block_state('archt:wall_connection_type_south') == 'tall'",
+					"short_ns": "!q.block_state('archt:wall_post_bit') && q.block_state('archt:wall_connection_type_north') == 'short' && q.block_state('archt:wall_connection_type_south') == 'short'",
+					"tall_ns": "!q.block_state('archt:wall_post_bit') && q.block_state('archt:wall_connection_type_north') == 'tall' && q.block_state('archt:wall_connection_type_south') == 'tall'",
+					"item_visual": "false"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-4,
+					8,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+			"archt:wall_connections": {},
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					3,
+					3
+				]
+			},
+			"minecraft:tags": [
+				"minecraft:is_pickaxe_item_destructible"
+			],
+			"minecraft:connection_rule": {
+				"accepts_connections_from": "all"
+			},
+			"minecraft:map_color": "#414141"
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							8,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_south') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							8,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_west') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							8
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_east') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							8
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'short' && q.block_state('archt:wall_connection_type_south') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-3,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							13,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_east') == 'short' && q.block_state('archt:wall_connection_type_west') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-3
+						],
+						"size": [
+							16,
+							13,
+							6
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'tall' && q.block_state('archt:wall_connection_type_south') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-3,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_east') == 'tall' && q.block_state('archt:wall_connection_type_west') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-3
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'short' && q.block_state('archt:wall_connection_type_east') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'short' && q.block_state('archt:wall_connection_type_west') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_south') == 'short' && q.block_state('archt:wall_connection_type_east') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_south') == 'short' && q.block_state('archt:wall_connection_type_west') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'tall' && q.block_state('archt:wall_connection_type_east') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'tall' && q.block_state('archt:wall_connection_type_west') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_south') == 'tall' && q.block_state('archt:wall_connection_type_east') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_south') == 'tall' && q.block_state('archt:wall_connection_type_west') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'short' && q.block_state('archt:wall_connection_type_south') == 'short' && q.block_state('archt:wall_connection_type_west') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'short' && q.block_state('archt:wall_connection_type_south') == 'short' && q.block_state('archt:wall_connection_type_east') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'short' && q.block_state('archt:wall_connection_type_east') == 'short' && q.block_state('archt:wall_connection_type_west') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_south') == 'short' && q.block_state('archt:wall_connection_type_east') == 'short' && q.block_state('archt:wall_connection_type_west') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							16,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'tall' && q.block_state('archt:wall_connection_type_south') == 'tall' && q.block_state('archt:wall_connection_type_west') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'tall' && q.block_state('archt:wall_connection_type_south') == 'tall' && q.block_state('archt:wall_connection_type_east') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'tall' && q.block_state('archt:wall_connection_type_east') == 'tall' && q.block_state('archt:wall_connection_type_west') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_south') == 'tall' && q.block_state('archt:wall_connection_type_east') == 'tall' && q.block_state('archt:wall_connection_type_west') == 'tall'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							16,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('archt:wall_connection_type_north') == 'short' && q.block_state('archt:wall_connection_type_south') == 'short' && q.block_state('archt:wall_connection_type_east') == 'short' && q.block_state('archt:wall_connection_type_west') == 'short'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							16
+						]
+					}
+				}
+			}
+		]
+	}
+}

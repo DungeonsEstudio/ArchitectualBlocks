@@ -1,11 +1,11 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Architectual Blocks [RP]",
+		"name": "Architectual Blocks [RP] v1.3.0",
 		"description": "Expansion de Bloques Vanilla.",
-		"min_engine_version": [1, 21, 0],
+		"min_engine_version": [1, 26, 50],
 		"uuid": "495b272f-edf5-4b40-a650-94d0162b4687",
-		"version": [1, 2, 0]
+		"version": [1, 3, 0]
 	},
 	"modules": [
 		{
@@ -17,11 +17,11 @@
 	"dependencies": [
 		{
 			"uuid": "e27d17cf-5f03-430e-8905-4c60d2c125a5",
-			"version": [1, 2, 0]
+			"version": [1, 3, 0]
 		}
 	],
 	"metadata": {
-		"authors": ["DungeonStudio - Francisco1893, axos_mc; RatzStudio - Chewawiii"],
+		"authors": ["DungeonStudio - Francisco1893, axos_mc; Squared Creations - Chewawiii"],
 		"product_type": "addon"
 	}
 }

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "archt:polished_granite_wall"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "minecraft:polished_granite"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:polished_granite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "archt:polished_granite_wall",
+      "count": 1
+    }
+  }
+}

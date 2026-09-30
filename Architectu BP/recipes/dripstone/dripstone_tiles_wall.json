@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "archt:dripstone_tiles_wall"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "minecraft:dripstone_block"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:dripstone_block",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "archt:dripstone_tiles_wall",
+      "count": 1
+    }
+  }
+}

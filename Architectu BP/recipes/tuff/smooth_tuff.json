@@ -1,25 +1,27 @@
 {
-	"format_version": "1.20.10",
-	"minecraft:recipe_shapeless": {
-		"description": {
-			"identifier": "archt:smooth_tuff"
-		},
-		"tags": ["stonecutter"],
-		"priority": 2,
-		"ingredients": [
-			{
-				"item": "minecraft:tuff"
-			}
-		],
-		"unlock": [
-			{
-				"item": "minecraft:tuff",
-				"data": 0
-			}
-		],
-		"result": {
-			"item": "archt:smooth_tuff",
-			"count": 1
-		}
-	}
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "archt:smooth_tuff"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "minecraft:tuff"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:tuff",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "archt:smooth_tuff",
+      "count": 1
+    }
+  }
 }

@@ -1,53 +1,30 @@
 {
-	"format_version": "1.21.50",
+	"format_version": "1.26.50",
 	"minecraft:block": {
 		"description": {
 			"identifier": "archt:granite_capital",
 			"menu_category": {
 				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:block_face"
+					]
+				}
 			}
 		},
 		"components": {
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 7.5,
+				"seconds_to_destroy": 5,
 				"item_specific_speeds": [
 					{
 						"item": {
-							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+							"tags": "q.any_tag('minecraft:is_pickaxe')"
 						},
-						"destroy_speed": 1.15
-					},
-					{
-						"item": {
-							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
-						},
-						"destroy_speed": 0.6
-					},
-					{
-						"item": {
-							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
-						},
-						"destroy_speed": 0.4
-					},
-					{
-						"item": {
-							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
-						},
-						"destroy_speed": 0.2
-					},
-					{
-						"item": {
-							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
-						},
-						"destroy_speed": 0.3
-					},
-					{
-						"item": {
-							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
-						},
-						"destroy_speed": 0.25
+						"destroy_speed": 1.5
 					}
 				]
 			},
@@ -57,25 +34,93 @@
 			"minecraft:geometry": "minecraft:geometry.full_block",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "smooth_granite"
+					"texture": "archt_smooth_granite"
 				},
 				"down": {
-					"texture": "granite_base_top"
+					"texture": "archt_granite_base_top"
 				},
-				"north": {
-					"texture": "granite_capital_side"
-				},
-				"east": {
-					"texture": "granite_capital_side"
-				},
-				"west": {
-					"texture": "granite_capital_side"
-				},
-				"south": {
-					"texture": "granite_capital_side"
+				"*": {
+					"texture": "archt_granite_capital_side"
 				}
 			},
-			"minecraft:map_color": "#9F6B58"
-		}
+			"minecraft:map_color": "#9F6B58",
+			"minecraft:sound": {
+				"sound": "stone"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							270,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							270
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							90
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'up'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'down'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							180
+						]
+					}
+				}
+			}
+		]
 	}
 }

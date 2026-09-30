@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "archt:resin_pale_mossy_cobblestone_stairs"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "minecraft:resin_block"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:resin_block",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "archt:resin_pale_mossy_cobblestone_stairs",
+      "count": 1
+    }
+  }
+}

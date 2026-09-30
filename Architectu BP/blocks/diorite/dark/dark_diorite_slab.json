@@ -1,0 +1,182 @@
+{
+	"format_version": "1.26.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "archt:dark_diorite_slab",
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:vertical_half"
+					]
+				}
+			},
+			"states": {
+				"archt:is_double": [
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "q.any_tag('minecraft:is_pickaxe')"
+						},
+						"destroy_speed": 1.5
+					}
+				]
+			},
+			"minecraft:tags": [
+				"minecraft:is_pickaxe_item_destructible"
+			],
+			"minecraft:geometry": {
+				"identifier": "geometry.arch.stair_model",
+				"bone_visibility": {
+					"bottom1": "q.block_state('minecraft:vertical_half') == 'bottom' || q.block_state('archt:is_double')",
+					"bottom2": "q.block_state('minecraft:vertical_half') == 'bottom' || q.block_state('archt:is_double')",
+					"bottom3": "q.block_state('minecraft:vertical_half') == 'bottom' || q.block_state('archt:is_double')",
+					"bottom4": "q.block_state('minecraft:vertical_half') == 'bottom' || q.block_state('archt:is_double')",
+					"top1": "q.block_state('minecraft:vertical_half') == 'top' || q.block_state('archt:is_double')",
+					"top2": "q.block_state('minecraft:vertical_half') == 'top' || q.block_state('archt:is_double')",
+					"top3": "q.block_state('minecraft:vertical_half') == 'top' || q.block_state('archt:is_double')",
+					"top4": "q.block_state('minecraft:vertical_half') == 'top' || q.block_state('archt:is_double')"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "archt_dark_diorite",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:movable": {
+				"movement_type": "push_pull",
+				"sticky": "none"
+			},
+			"minecraft:connection_rule": {
+				"accepts_connections_from": "none",
+				"enabled_directions": [
+					"north",
+					"south",
+					"east",
+					"west"
+				]
+			},
+			"minecraft:precipitation_interactions": {
+				"precipitation_behavior": "obstruct_rain_accumulate_snow"
+			},
+			"minecraft:map_color": "#BABBC0",
+			"minecraft:sound": {
+				"sound": "stone"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('archt:is_double')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "no_reaction"
+							}
+						]
+					},
+					"minecraft:light_dampening": 0
+				}
+			},
+			{
+				"condition": "q.block_state('archt:is_double')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							16
+						]
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": false
+							}
+						]
+					},
+					"minecraft:light_dampening": 15,
+					"minecraft:loot": "loot_tables/blocks/architectu/dark_diorite_slab.json"
+				}
+			}
+		]
+	}
+}

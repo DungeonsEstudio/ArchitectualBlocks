@@ -1,478 +1,74 @@
 {
 	"format_version": "1.21.0",
-
-	// Andesite
-	"archt:andesite_base": {
-		"sound": "stone"
+	"prismarine_double_slab": {
+		"sound": "stone",
+		"textures": "flattened_prismarine"
 	},
-	"archt:andesite_bricks": {
-		"sound": "stone"
+	"prismarine_slab": {
+		"sound": "stone",
+		"textures": "flattened_prismarine"
 	},
-	"archt:andesite_capital": {
-		"sound": "stone"
+	"prismarine_stairs": {
+		"sound": "stone",
+		"textures": "flattened_prismarine"
 	},
-	"archt:andesite_coblestone": {
-		"sound": "stone"
+	"prismarine_wall": {
+		"sound": "stone",
+		"textures": "flattened_prismarine"
 	},
-	"archt:andesite_mossy_bricks": {
-		"sound": "stone"
+	"smooth_sandstone": {
+		"isotropic": {
+			"down": true,
+			"up": true
+		},
+		"sound": "stone",
+		"textures": "smooth_sandstone"
 	},
-	"archt:andesite_mossy_coblestone": {
-		"sound": "stone"
+	"sandstone_double_slab": {
+		"sound": "stone",
+		"textures": "flattened_sandstone"
 	},
-	"archt:andesite_pillar": {
-		"sound": "stone"
+	"sandstone_slab": {
+		"sound": "stone",
+		"textures": "flattened_sandstone"
 	},
-	"archt:andesite_tiles": {
-		"sound": "stone"
+	"sandstone_stairs": {
+		"isotropic": {
+			"down": true,
+			"up": true
+		},
+		"textures": "flattened_sandstone"
 	},
-	"archt:broken_andesite_bricks": {
-		"sound": "stone"
-	},
-	"archt:broken_andesite_tiles": {
-		"sound": "stone"
-	},
-	"archt:chiseled_andesite_bricks": {
-		"sound": "stone"
-	},
-	"archt:cut_andesite": {
-		"sound": "stone"
-	},
-	"archt:dark_andesite": {
-		"sound": "stone"
-	},
-	"archt:engraved_andesite": {
-		"sound": "stone"
-	},
-	"archt:smooth_andesite": {
-		"sound": "stone"
+	"sandstone_wall": {
+		"sound": "stone",
+		"textures": "flattened_sandstone"
 	},
 
-	// Basalt
-	"archt:basalt_base": {
-		"sound": "basalt"
-	},
-	"archt:basalt_bricks": {
-		"sound": "basalt"
-	},
-	"archt:basalt_capital": {
-		"sound": "basalt"
-	},
-	"archt:basalt_coblestone": {
-		"sound": "basalt"
-	},
-	"archt:basalt_mossy_bricks": {
-		"sound": "basalt"
-	},
-	"archt:basalt_mossy_coblestone": {
-		"sound": "basalt"
-	},
-	"archt:basalt_pillar": {
-		"sound": "basalt"
-	},
-	"archt:basalt_tiles": {
-		"sound": "basalt"
-	},
-	"archt:broken_basalt_bricks": {
-		"sound": "basalt"
-	},
-	"archt:broken_basalt_tiles": {
-		"sound": "basalt"
-	},
-	"archt:chiseled_basalt_bricks": {
-		"sound": "basalt"
-	},
-	"archt:cut_basalt": {
-		"sound": "basalt"
-	},
-	"archt:dark_basalt": {
-		"sound": "basalt"
-	},
-	"archt:engraved_basalt": {
-		"sound": "basalt"
-	},
-	"archt:polished_basalt": {
-		"sound": "basalt"
-	},
-	"archt:smooth_basalt": {
-		"sound": "basalt"
-	},
-
-	// Calcite
-	"archt:broken_calcite_bricks": {
-		"sound": "calcite"
-	},
-	"archt:broken_calcite_tiles": {
-		"sound": "calcite"
-	},
-	"archt:calcite_base": {
-		"sound": "calcite"
-	},
-	"archt:calcite_bricks": {
-		"sound": "calcite"
-	},
-	"archt:calcite_capital": {
-		"sound": "calcite"
-	},
-	"archt:calcite_coblestone": {
-		"sound": "calcite"
-	},
-	"archt:calcite_mossy_bricks": {
-		"sound": "calcite"
-	},
-	"archt:calcite_mossy_coblestone": {
-		"sound": "calcite"
-	},
-	"archt:calcite_pillar": {
-		"sound": "calcite"
-	},
-	"archt:calcite_tiles": {
-		"sound": "calcite"
-	},
-	"archt:chiseled_calcite_bricks": {
-		"sound": "calcite"
-	},
-	"archt:cut_calcite": {
-		"sound": "calcite"
-	},
-	"archt:dark_calcite": {
-		"sound": "calcite"
-	},
-	"archt:engraved_calcite": {
-		"sound": "calcite"
-	},
-	"archt:polished_calcite": {
-		"sound": "calcite"
-	},
-	"archt:smooth_calcite": {
-		"sound": "calcite"
-	},
-
-	// Cinnabar
-	"archt:broken_cinnabar_bricks": {
-		"sound": "cinnabar"
-	},
-	"archt:broken_cinnabar_tiles": {
-		"sound": "cinnabar"
-	},
-	"archt:chiseled_cinnabar_bricks": {
-		"sound": "cinnabar"
-	},
-	"archt:cinnabar_base": {
-		"sound": "cinnabar"
-	},
-	"archt:cinnabar_capital": {
-		"sound": "cinnabar"
-	},
-	"archt:cinnabar_cobblestone": {
-		"sound": "cinnabar"
-	},
-	"archt:cinnabar_pillar": {
-		"sound": "cinnabar"
-	},
-	"archt:cinnabar_tiles": {
-		"sound": "cinnabar"
-	},
-	"archt:cut_cinnabar": {
-		"sound": "cinnabar"
-	},
-	"archt:dark_cinnabar": {
-		"sound": "cinnabar"
-	},
-	"archt:engraved_cinnabar": {
-		"sound": "cinnabar"
-	},
-	"archt:mossy_cinnabar_bricks": {
-		"sound": "cinnabar"
-	},
-	"archt:mossy_cinnabar_cobblestone": {
-		"sound": "cinnabar"
-	},
-	"archt:smooth_cinnabar": {
-		"sound": "cinnabar"
-	},
-
-	// Deepslate
-	"archt:chiseled_deepslate_bricks": {
-		"sound": "deepslate"
-	},
-	"archt:cut_deepslate": {
-		"sound": "deepslate"
-	},
-	"archt:dark_deepslate": {
-		"sound": "deepslate"
-	},
-	"archt:deepslate_base": {
-		"sound": "deepslate"
-	},
-	"archt:deepslate_capital": {
-		"sound": "deepslate"
-	},
-	"archt:deepslate_pillar": {
-		"sound": "deepslate"
-	},
-	"archt:sculk_deepslate_bricks": {
-		"sound": "deepslate"
-	},
-	"archt:sculk_deepslate_coblestone": {
-		"sound": "deepslate"
-	},
-	"archt:smooth_deepslate": {
-		"sound": "deepslate"
-	},
-
-	// Diorite
-	"archt:broken_diorite_bricks": {
-		"sound": "stone"
-	},
-	"archt:broken_diorite_tiles": {
-		"sound": "stone"
-	},
-	"archt:chiseled_diorite_bricks": {
-		"sound": "stone"
-	},
-	"archt:cut_diorite": {
-		"sound": "stone"
-	},
-	"archt:dark_diorite": {
-		"sound": "stone"
-	},
-	"archt:engraved_diorite": {
-		"sound": "stone"
-	},
-	"archt:diorite_tiles": {
-		"sound": "stone"
-	},
-	"archt:diorite_base": {
-		"sound": "stone"
-	},
-	"archt:diorite_bricks": {
-		"sound": "stone"
-	},
-	"archt:diorite_capital": {
-		"sound": "stone"
-	},
-	"archt:diorite_coblestone": {
-		"sound": "stone"
-	},
-	"archt:diorite_mossy_bricks": {
-		"sound": "stone"
-	},
-	"archt:diorite_mossy_coblestone": {
-		"sound": "stone"
-	},
-	"archt:diorite_pillar": {
-		"sound": "stone"
-	},
-	"archt:smooth_diorite": {
-		"sound": "stone"
-	},
-
-	// Dripstone
-	"archt:broken_dripstone_bricks": {
-		"sound": "dripstone_block"
-	},
-	"archt:broken_dripstone_tiles": {
-		"sound": "dripstone_block"
-	},
-	"archt:chiseled_dripstone_bricks": {
-		"sound": "dripstone_block"
-	},
-	"archt:cut_dripstone": {
-		"sound": "dripstone_block"
-	},
-	"archt:dark_dripstone": {
-		"sound": "dripstone_block"
-	},
-	"archt:dripstone_base": {
-		"sound": "dripstone_block"
-	},
-	"archt:dripstone_bricks": {
-		"sound": "dripstone_block"
-	},
-	"archt:dripstone_capital": {
-		"sound": "dripstone_block"
-	},
-	"archt:dripstone_coblestone": {
-		"sound": "dripstone_block"
-	},
-	"archt:dripstone_mossy_bricks": {
-		"sound": "dripstone_block"
-	},
-	"archt:dripstone_mossy_coblestone": {
-		"sound": "dripstone_block"
-	},
-	"archt:dripstone_pillar": {
-		"sound": "dripstone_block"
-	},
-	"archt:dripstone_tiles": {
-		"sound": "dripstone_block"
-	},
-	"archt:engraved_dripstone": {
-		"sound": "dripstone_block"
-	},
-	"archt:polished_dripstone": {
-		"sound": "dripstone_block"
-	},
-	"archt:smooth_dripstone": {
-		"sound": "dripstone_block"
-	},
-
-	// Granite
-	"archt:broken_granite_bricks": {
-		"sound": "stone"
-	},
-	"archt:broken_granite_tiles": {
-		"sound": "stone"
-	},
-	"archt:chiseled_granite_bricks": {
-		"sound": "stone"
-	},
-	"archt:cut_granite": {
-		"sound": "stone"
-	},
-	"archt:dark_granite": {
-		"sound": "stone"
-	},
-	"archt:engraved_granite": {
-		"sound": "stone"
-	},
-	"archt:granite_tiles": {
-		"sound": "stone"
-	},
-	"archt:granite_base": {
-		"sound": "stone"
-	},
-	"archt:granite_bricks": {
-		"sound": "stone"
-	},
-	"archt:granite_capital": {
-		"sound": "stone"
-	},
-	"archt:granite_coblestone": {
-		"sound": "stone"
-	},
-	"archt:granite_mossy_bricks": {
-		"sound": "stone"
-	},
-	"archt:granite_mossy_coblestone": {
-		"sound": "stone"
-	},
-	"archt:granite_pillar": {
-		"sound": "stone"
-	},
-	"archt:smooth_granite": {
-		"sound": "stone"
-	},
-
-	// Stone
-	"archt:broken_stone_tiles": {
-		"sound": "stone"
-	},
-	"archt:cut_stone": {
-		"sound": "stone"
-	},
-	"archt:dark_stone": {
-		"sound": "stone"
-	},
-	"archt:engraved_stone": {
-		"sound": "stone"
-	},
-	"archt:polished_stone": {
-		"sound": "stone"
-	},
-	"archt:stone_base": {
-		"sound": "stone"
-	},
-	"archt:stone_capital": {
-		"sound": "stone"
-	},
-	"archt:stone_pillar": {
-		"sound": "stone"
-	},
-	"archt:stone_tiles": {
-		"sound": "stone"
-	},
-
-	// Sulfur
-	"archt:broken_sulfur_bricks": {
-		"sound": "sulfur"
-	},
-	"archt:broken_sulfur_tiles": {
-		"sound": "sulfur"
-	},
-	"archt:chiseled_sulfur_bricks": {
-		"sound": "sulfur"
-	},
-	"archt:cut_sulfur": {
-		"sound": "sulfur"
-	},
-	"archt:dark_sulfur": {
-		"sound": "sulfur"
-	},
-	"archt:engraved_sulfur": {
-		"sound": "sulfur"
-	},
-	"archt:mossy_sulfur_bricks": {
-		"sound": "sulfur"
-	},
-	"archt:mossy_sulfur_cobblestone": {
-		"sound": "sulfur"
-	},
-	"archt:smooth_sulfur": {
-		"sound": "sulfur"
-	},
-	"archt:sulfur_base": {
-		"sound": "sulfur"
-	},
-	"archt:sulfur_capital": {
-		"sound": "sulfur"
-	},
-	"archt:sulfur_cobblestone": {
-		"sound": "sulfur"
-	},
-	"archt:sulfur_pillar": {
-		"sound": "sulfur"
-	},
-	"archt:sulfur_tiles": {
-		"sound": "sulfur"
-	},
-
-	// Tuff
-	"archt:broken_tuff_bricks": {
-		"sound": "tuff"
-	},
-	"archt:broken_tuff_tiles": {
-		"sound": "tuff"
-	},
-	"archt:cut_tuff": {
-		"sound": "tuff"
-	},
-	"archt:dark_tuff": {
-		"sound": "tuff"
-	},
-	"archt:smooth_tuff": {
-		"sound": "tuff"
-	},
-	"archt:tuff_base": {
-		"sound": "tuff"
-	},
-	"archt:tuff_capital": {
-		"sound": "tuff"
-	},
-	"archt:tuff_coblestone": {
-		"sound": "tuff"
-	},
-	"archt:tuff_mossy_bricks": {
-		"sound": "tuff"
-	},
-	"archt:tuff_mossy_coblestone": {
-		"sound": "tuff"
-	},
-	"archt:tuff_pillar": {
-		"sound": "tuff"
-	},
-	"archt:tuff_tiles": {
-		"sound": "tuff"
+	"smooth_red_sandstone": {
+		"isotropic": {
+			"down": true,
+			"up": true
+		},
+		"sound": "stone",
+		"textures": "smooth_redsandstone"
+	},
+	"red_sandstone_double_slab": {
+		"sound": "stone",
+		"textures": "flattened_redsandstone"
+	},
+	"red_sandstone_slab": {
+		"sound": "stone",
+		"textures": "flattened_redsandstone"
+	},
+	"red_sandstone_stairs": {
+		"isotropic": {
+			"down": true,
+			"up": true
+		},
+		"textures": "flattened_redsandstone"
+	},
+	"red_sandstone_wall": {
+		"sound": "stone",
+		"textures": "flattened_redsandstone"
 	}
 }

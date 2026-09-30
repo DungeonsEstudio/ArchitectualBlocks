@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "archt:tuff_tiles_slab"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "minecraft:tuff"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:tuff",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "archt:tuff_tiles_slab",
+      "count": 2
+    }
+  }
+}
