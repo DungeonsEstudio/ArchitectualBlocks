@@ -1,0 +1,11 @@
+# Ignorar todo
+/*
+
+# Permitir las carpetas
+!/Architectu BP/
+!/Architectu RP/
+
+# Permitir archivos
+!/.gitignore
+!/LICENCE
+!/README.md
